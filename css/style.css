@@ -17,9 +17,8 @@ header {
     text-align: center;
     font-size: 50px;
     color:  red; 
-    padding-top: 25px;
-    /*background-color: black;*/
-    background-image: url('../img/p1.jpg');
+    background-image: url('../img/p1.jpg') ;
+
 }
 
 .col-sm {
@@ -64,4 +63,7 @@ span {
     text-align: left; 
     display: block;
     color: red;
+}
+.btn-group {
+  margin-left: 10px;
 }
