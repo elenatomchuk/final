@@ -1,49 +1,93 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Хочу все знати!</title>
-  </head>
-  <body>
-    <header>Хочу все знати! </header>
-<div class="container">
-  <p>Новини</p>
- 
-<ul class="list-unstyled">
-  <li class="media">
-    <img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">Медиа объект на основе списка</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+</head>
+
+<body>
+    <header>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="index.html">Головна</a>
+                <a class="dropdown-item" href="news.html">Новини науки</a>
+                <a class="dropdown-item" href="library.html">Бібліотека</a>
+                <a class="dropdown-item" href="video.html">Відеотека</a>
+                <a class="dropdown-item" href="children.html">Дитячі питання</a>
+                <a class="dropdown-item" href="perevirka.html">Перевір себе</a>
+            </div>
+        </div>
+        <div id="head">Хочу все знати!</div>
+    </header>
+    <p>Новини науки</p>
+    <div class="container">
+        <ul class="list-unstyled">
+            <li class="media">
+                <a href="https://www.unian.ua/science/10341168-u-ssha-startuvav-kosmichniy-korabel-cygnus-z-vantazhem-dlya-mks.html" target=_blank>
+                    <img class="mr-3" src="https://images.unian.net/photos/2018_11/1542458894-1881.jpg?0.5879662468326505">
+                    <div class="media-body">
+                        <h5>У США стартував космічний корабель Cygnus з вантажем для МКС</h5>
+                        Ракета-носій Antares стартувала з космодрому Wallops в штаті Вірджинія в 11:01 за Києвом, стикування Cygnus з МКС відбудеться 19 листопада.<br>
+                </a><p class="data">17 листопада 2018</p></div>
+            </li>
+            <li class="media">
+                <a href="https://www.unian.ua/science/10340616-vcheni-zminili-viznachennya-kilograma.html" target=_blank>
+                    <img class="mr-3" src="https://images.unian.net/photos/2018_11/1541782367-5926.jpg?0.1564601271813546">
+                    <div class="media-body">
+                        <h5>Вчені змінили визначення кілограма</h5>
+                        Від сьогодні еталон одиниці ваги більше не визначається гирею, яку зберігають в Парижі.
+                </a><p class="data">16 листопада 2018</p></div>
+            </li>
+            <li class="media">
+                <a href="https://www.unian.ua/science/10336359-newsweek-stiven-hoking-dopuskav-podorozhi-v-chasi-y-ne-darma.html" target=_blank>
+                    <img class="mr-3" src="https://images.unian.net/photos/2018_03/1521024241-6705.JPG?0.8517528325675932">
+                    <div class="media-body">
+                        <h5>Newsweek: Стівен Хокінг допускав подорожі в часі й не дарма </h5>
+                        Квантова механіка і теорія струн дають надію, що колись людство навчиться ставити наслідки перед причинами. 
+                </a><p class="data">13 листопада 2018</p></div>
+            </li>
+            <li class="media">
+                <a href="https://scienceukraine.com/allnews/%D0%BA%D0%BE%D1%81%D0%BC%D1%96%D1%87%D0%BD%D0%B8%D0%B9-%D1%82%D1%83%D1%80%D0%B8%D0%B7%D0%BC-%D1%82%D0%B5%D0%BF%D0%B5%D1%80-%D0%BD%D0%B5-%D0%BC%D1%96%D1%84/" target=_blank>
+                    <img class="mr-3" src="https://scienceukraine.com/wp-content/uploads/2018/11/1897b0a3f89112618e-1024x478.jpg">
+                    <div class="media-body">
+                        <h5>Космічний туризм тепер не міф?</h5>
+                        Наука – це коли мрії маленьких хлопчиків та дівчат стають реальністю, коли ті починають дорослішати. Сьогоднішні мрії про космічний ліфт поступово стають реальністю і доказ цьому – новий експеримент японських дослідників.
+                </a><p class="data">04 листопада 2018</p></div>
+            </li>
+            <li class="media">
+                <a href="https://scienceukraine.com/cosmos/nasa-venus-mission-plans/" target=_blank>
+                    <img class="mr-3" src="https://scienceukraine.com/wp-content/uploads/2018/10/Venus-real_color.jpg">
+                    <div class="media-body">
+                        <h5>Місяць, Марс, а може Венера? </h5>
+                        NASA розробляє концепт місії до захмареної планети. У NASA хочуть відправити людей до іншої сусідньої з Землею планети – Венери. Поки що дослідники працюють лише над концептом місії. Але чи можуть нові технології змусити нас перевести погляд за Червоної планети на Венеру?
+                </a><p class="data">19 жовтня 2018</p></div>
+            </li>
+            <li class="media">
+                <a href="https://scienceukraine.com/cosmos/bepicolombo-successfull-launch/" target=_blank>
+                    <img class="mr-3" src="https://scienceukraine.com/wp-content/uploads/2018/10/Mercury-NASA.jpg">
+                    <div class="media-body">
+                        <h5>BepiColombo вирушає на зустріч з Меркурієм</h5>
+                        Минулої суботи з французького космодрому Куру відбувся запуск нової космічної місії ESA-JAXA BepiColombo, яка має на меті розкрити таємниці першої планети Сонячної системи – Меркурія.
+                </a><p class="data">22 жовтня 2018</p></div>
+            </li>
+        </ul>
+        <div><a href="https://scienceukraine.com/">Більше новин</a></div>
+        <hr>
+    <footer>2018-2019 ВТЛ</footer>
     </div>
-  </li>
-  <li class="media my-4">
-    <img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">Медиа объект на основе списка</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-  <li class="media">
-    <img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">Медиа объект на основе списка</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-</ul>
- 
-</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
