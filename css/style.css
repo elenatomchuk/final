@@ -1,3 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#head {
+    color: #00d6fb;
+    margin-left: 30%;
+display: flex;
+align-items: center;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+}
+
 div {
     display: block;
 }
@@ -13,18 +31,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 15vh;
-    text-align: center;
-    font-size: 50px;
-    color:  red; 
-    background-image: url('../img/p1.jpg') ;
+    height: 75px;
+    background-image: url('../img/milky-way.jpg');
 
+    display: flex;
+    justify-content: left;
 }
 
 .col-sm {
     /*background-color: #FFF2D6;*/
-    padding:  20px;
-    margin-right: 20px;
+    padding: 20px;
+    margin-right: 10px;
 }
 
 footer {
@@ -37,33 +54,64 @@ footer {
 }
 
 .adaptive-wrap {
-  position: relative;
-  padding-bottom: 56.25%; 
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
+
 .adaptive-wrap iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .inf {
     display: block;
-    width: 100%
-    text-align: justify;
+    width: 100% text-align: justify;
     margin-top: 15px;
 }
 
 span {
     font-size: 20px;
-    text-align: left; 
+    text-align: left;
     display: block;
     color: red;
 }
+
 .btn-group {
-  margin-left: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+@media (min-width: 300px) {
+    #head {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    #head {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    #head {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    #head {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #head {
+        font-size: 50px;
+    }
 }
